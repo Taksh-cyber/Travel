@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <a href="transaction.html" ><img src="Images/Company logo.jpeg"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Login.html">LOGIN</a></li>
+                    <li><a href="Registration.html">REGISTRATION</a></li>
+                    <li><a href="">TRASACTION</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                </ul>
+            </div>
+        </nav>    
+    </div> 
+
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <form action="connection.php" method="post">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>FirstName</label>
+                            <input type="text" placeholder="Enter your name" id="FirstName" name="FirstName" required>
+                        </div>
+                        <div class="input-field">
+                            <label>MiddelName</label>
+                            <input type="text" placeholder="Enter your name" id="MiddelName" name="MiddelName" required>
+                        </div>
+                        <div class="input-field">
+                            <label>LastName</label>
+                            <input type="text" placeholder="Enter your name" id="LastName" name="LastName" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>DateofBirth</label>
+                            <input type="date" placeholder="Enter birth date" id="DateofBirth" name="DateofBirth" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" id="Email" name="Email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>MobileNumber</label>
+                            <input type="number" placeholder="Enter mobile number" id="MobileNumber" name="MobileNumber" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Enter your ccupation" id="Occupation" name="Occupation" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Password</label>
+                            <input type="password" placeholder="Enter your password" id="Password" name="Password" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            
+                            <select required>
+                                <option disabled selected>Select gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                    <div class="buttons">
+                        <button class="sumbit">
+                        <span class="btnText">Submit</span>
+                        <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </form>
+                 
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>

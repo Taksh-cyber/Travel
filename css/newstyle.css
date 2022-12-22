@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0%;
+}
+
+nav{
+    overflow: hidden;
+    text-decoration: none;
+    background-color: dimgrey;
+    color: rgb(230, 241, 203);
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    background-color: dimgrey;
+    color: rgb(230, 241, 203);
+    padding: 14px 13px;
+    float: left;
+}
+
+nav a:hover{
+    color:black ;
+    background-color: antiquewhite;
+}
+
+
+.main{
+    position:relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    content: "";
+    background: url(TRAVEL3.jpeg)  no-repeat center/cover;
+    height: 578px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+
+.h1{
+    font-family: serif;
+    color: black;
+    font-size: 53px;
+}
+
+.p{
+    font-family: serif;
+    font-size: 25px;
+}
+
+.wel{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: serif;
+
+    background-color: dimgrey;
+    color: rgb(230, 241, 203);
+    padding: 14px 20px;
+    margin: 25px;
+    border-radius: 20px;
+
+
+}
+
+.bt{
+
+    margin-top: 30px;
+    background-color: chocolate;
+    font-size: 21px;
+    border: 2px solid red;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 11px;
+    cursor: pointer;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.bt:hover{
+
+    background-color: black;
+    color: aliceblue;
+}
+
+.osep{
+    text-align: center;
+    margin: 40px;
+    font-family: serif;
+    font-size: 28px;
+    padding: 20px;
+
+
+}
+
+.os{
+    text-align: center;
+    margin: 40px;
+    font-family: serif;
+    font-size: 28px;
+    padding: 20px;
+    background-color:#A0DAA9;
+
+}
+
+.special{
+    text-decoration: underline;
+}
+
+#sp{
+    display: flex;
+    margin: 52px;
+    justify-content: center;
+
+}
+
+
+#sp .box{
+    border:3px solid red;
+    padding: 34px;
+    margin: 11px 15px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+
+
+
+}
+
+#sp .box:hover{
+   cursor: pointer;
+    background-color: rgb(200, 243, 243) ;
+}
+
+#sp .box img{
+    height: 108px;
+    display: block;
+    margin: auto;
+}
+
+.oc{
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    padding: 20px;
+    text-decoration: underline;
+
+}
+
+/* Contact Section */
+#conct{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: url('css/contact.jpg') no-repeat center/cover;
+}
+
+#conct::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('css/contact.jpg') no-repeat center/cover;
+
+}
+.cc{
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+
+
+.cc input,
+.conct textarea{
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+.conct form{
+    width: 40%;
+}
+
+.conct label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+
+
+
+.cu{
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    margin: 10px;
+    color: darkorange;
+}
+
+
+
+
+
+
+.send{
+    margin-top: 3px;
+    background-color: chocolate;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 15px;
+    color: aliceblue;
+    padding: 11px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+
+    margin-bottom: 55px;
+
+}
+footer {
+    overflow: hidden;
+    text-decoration: none;
+    background-color: dimgrey;
+    color: rgb(230, 241, 203);
+    padding: 8px;
+
+}
+
+footer a{
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    background-color: dimgrey;
+    color: rgb(230, 241, 203);
+    padding: 7px 20px;
+    float: left;
+}
+
+
+
+.follow{
+    margin-bottom: 20px;
+
+}
+
+
+
+.handles{
+    display:list-item;
+}
+
+.yt{
+    color: red;
+    margin-top:19px ;
+    background-color:blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right:11px;
+}
+
+
+
+ .yt:hover{
+    background-color:#A0DAA9;
+}
+
+
+
+.fb{
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    margin-right:11px;
+}
+
+.fb:hover{
+    background-color:#A0DAA9;
+}
+
+.insta{
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 20px;
+        background-color: blanchedalmond;
+        color: deeppink;
+
+}
+
+.insta:hover{
+    background-color:#A0DAA9  ;
+}
+
+
+
+
+footer a:hover{
+    color:black ;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.caption{
+    margin-top: 21px;
+
+}
+
+.hs{
+    font-weight: 200;
+}
